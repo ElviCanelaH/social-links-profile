@@ -1,0 +1,110 @@
+:root {
+    --Dark-Grey: #1F1F1F;
+    --Grey: #333;
+    --Black: #141414;
+    --White: #FFF;
+    --Neon-Green: #c4f82a;
+
+}
+
+body {
+
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--Black);
+
+}
+
+section {
+    background-color: var(--Dark-Grey);
+    max-width: 384px;
+    max-height: 611px;
+    border-radius: 12px;
+    padding: 40px;
+   
+
+}
+
+.container-img {
+    padding: 0 24px 24px 24px  
+}
+
+img {
+    width: 88px;
+    height: 88px; 
+    border-radius: 50%;
+    
+    
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.name {
+    color: var(--White);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0;
+    padding: 24px, s;
+}
+
+.pais {
+    color: var(--Neon-Green);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+}
+
+p {
+    color: var(--White);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-buttons .Github,
+.container-buttons .FrontMentor,
+.container-buttons .Linkedin,
+.container-buttons .Twitter,
+.container-buttons .Instagram {
+    margin-bottom: 12px; 
+    width: 100%;
+    height: 15%;
+    padding: 1.5vh;
+    background-color: var(--Grey);
+    color: var(--White);
+    border: 1px solid var(--Grey);
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+
+.attribution { 
+  text-align: center;
+   
+    
+}
